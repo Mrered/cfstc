@@ -15,7 +15,7 @@ osascript -e 'display notification "开始优选Cloudflare CDN IPV6" with title 
 sleep 1
 
 # 执行 CloudflareST
-/opt/homebrew/Cellar/cfstarm64/2.2.2/bin/CloudflareST -f /opt/homebrew/Cellar/cfstarm64/2.2.2/bin/ipv6.txt -o ~/.CloudflareSTResult/result.csv -n 1000 -dn 10 -tll 30 -dt 13 -tl 280 -sl 15 -p 5
+/opt/homebrew/Cellar/cfstarm64/2.2.2/bin/CloudflareST -f /opt/homebrew/Cellar/cfstarm64/2.2.2/bin/ipv6.txt -o ~/.CloudflareSTResult/result.csv -n 1000 -dn 10 -tll 30 -dt 13 -tl 300 -sl 15 -p 5
 
 # 等待2秒钟
 sleep 1
